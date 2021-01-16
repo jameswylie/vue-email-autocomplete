@@ -1,29 +1,27 @@
 {
   "name": "vue-email-autocomplete",
-  "version": "1.0.0",
   "description": "A configurable & lightweight Vue email wrapper component that enables 'out of the box' email autocomplete/suggestions on input elements.",
+  "version": "1.0.0",
+  "author": {
+    "name": "James Wylie",
+    "email": "james@cloudcrest.co.uk",
+    "url": "https://www.cloudcrest.co.uk/"
+  },
   "main": "dist/vue-email-autocomplete.umd.min.js",
   "files": [
-   "dist/*",
-   "src/*"
+    "dist/vue-email-autocomplete.umd.min.js"
   ],
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-email-autocomplete src/main.js",
-    "lint": "vue-cli-service lint",
-    "prepublishOnly": "$npm_execpath build"
-  },
-  "dependencies": {
-    "vue": "^2.6.12"
-  },
+  "_id": "vue-email-autocomplete@1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jameswylie/vue-email-autocomplete.git"
   },
- "bugs": {
-   "url": "https://github.com/jameswylie/vue-email-autocomplete/issues"
+  "bugs": {
+    "url": "https://https://github.com/jameswylie/vue-email-autocomplete/issues"
   },
+  "homepage": "https://github.com/jameswylie/vue-email-autocomplete#readme",
   "keywords": [
+    "vue-email-autocomplete",
     "Vue Autocomplete",
     "VueJS Autocomplete",
     "Vue Email Autocomplete",
@@ -43,10 +41,45 @@
     "Vue Email HOC",
     "VueJS Email HOC"
   ],
-  "author": "James Wylie <james@cloudcrest.co.uk> (https://www.cloudcrest.co.uk/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/glassmorphic/css/issues"
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-package": "vue-cli-service build --target lib --name vue-email-autocomplete ./src/components/vue-email-autocomplete.vue",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "$npm_execpath build"
   },
-  "homepage": "https://github.com/glassmorphic/css#readme"
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
