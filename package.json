@@ -1,0 +1,52 @@
+{
+  "name": "vue-email-autocomplete",
+  "version": "1.0.0",
+  "description": "A configurable & lightweight Vue email wrapper component that enables 'out of the box' email autocomplete/suggestions on input elements.",
+  "main": "dist/vue-email-autocomplete.umd.min.js",
+  "files": [
+   "dist/*",
+   "src/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-email-autocomplete src/main.js",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "$npm_execpath build"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswylie/vue-email-autocomplete.git"
+  },
+ "bugs": {
+   "url": "https://github.com/jameswylie/vue-email-autocomplete/issues"
+  },
+  "keywords": [
+    "Vue Autocomplete",
+    "VueJS Autocomplete",
+    "Vue Email Autocomplete",
+    "VueJS Email Autocomplete",
+    "Vue Email Suggestions",
+    "VueJS Email Suggestions",
+    "Vue Email Input Autocomplete",
+    "VueJS Email Input Autocomplete",
+    "Vue Email Domain Autocomplete",
+    "VueJS Email Domain Autocomplete",
+    "Vue Email Address Autocomplete",
+    "VueJS Email Address Autocomplete",
+    "Vue Email Dropdown",
+    "VueJS Email Dropdown",
+    "Vue Email Dropdown Suggestions",
+    "VueJS Email Dropdown Suggestions",
+    "Vue Email HOC",
+    "VueJS Email HOC"
+  ],
+  "author": "James Wylie <james@cloudcrest.co.uk> (https://www.cloudcrest.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glassmorphic/css/issues"
+  },
+  "homepage": "https://github.com/glassmorphic/css#readme"
+}
