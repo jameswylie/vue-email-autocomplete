@@ -3,7 +3,6 @@ A configurable &amp; lightweight Vue wrapper component which enables "out of the
 
 ✅ A wrapper component so you can use alongside other form enabled libraries (such as Buefy).\
 ✅ Customizable.\
-✅ Allow users to easily navigate the suggestions list by simply using the "up/down" keys and auto-fill the input with selection using the "enter" key.\
 ✅ Allow users to easily navigate the suggestions list by simply using the "up/down" keys.\
 ✅ Users can also auto-fill the input with the desired selection hitting the "enter" key.
 
