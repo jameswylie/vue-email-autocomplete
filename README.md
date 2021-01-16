@@ -263,7 +263,7 @@ Coming Soon!
         <td>Object</td>
         <td>No</td>
         <td>N/A</td>
-        <td>CSS stlye overrides for specific elements of the suggestions component (See above examples).</td>
+        <td>CSS style overrides for specific elements of the suggestions component (See above examples).</td>
     </tr>
     </tbody>
 </table>
