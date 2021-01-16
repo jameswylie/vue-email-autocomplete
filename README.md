@@ -194,7 +194,7 @@ export default {
         /* Edit style for the suggestions "outer" container */
 
         container: {
-          position: fixed,
+          position: 'fixed',
           top: '40px',
           left: '40px'
         },
