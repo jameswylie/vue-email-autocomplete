@@ -1,6 +1,11 @@
 # vue-email-autocomplete
 A configurable &amp; lightweight Vue email wrapper component which enables "out of the box" email autocomplete/suggestions on input elements.
 
+✅ A wrapper component so you can use alongside other form based frameworks.
+✅ Customizable.
+✅ Arrow suggestions list navigation.
+✅ Auto-fill on enter key.
+
 ## Installation
 
 ```bash
