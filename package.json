@@ -1,7 +1,7 @@
 {
   "name": "vue-email-autocomplete",
   "description": "A configurable & lightweight Vue email wrapper component that enables 'out of the box' email autocomplete/suggestions on input elements.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "James Wylie",
     "email": "james@cloudcrest.co.uk",
