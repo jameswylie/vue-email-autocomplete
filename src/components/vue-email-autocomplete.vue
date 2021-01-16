@@ -330,12 +330,7 @@ export default {
     background-color: #F3F3F3;
   }
 
-  li:nth-child(1) {
-
-  }
-
   li:last-child {
-
     border: none;
   }
 
