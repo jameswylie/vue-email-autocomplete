@@ -4,7 +4,7 @@ A configurable &amp; lightweight Vue email wrapper component which enables "out 
 ✅ A wrapper component so you can use alongside other form based frameworks.\
 ✅ Customizable.\
 ✅ Arrow suggestions list navigation.\
-✅ Auto-fill on enter key.\
+✅ Auto-fill on enter key.
 
 ## Installation
 
