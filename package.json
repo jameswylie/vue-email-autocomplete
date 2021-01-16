@@ -50,7 +50,6 @@
     "build": "vue-cli-service build",
     "build-package": "vue-cli-service build --target lib --name vue-email-autocomplete ./src/components/vue-email-autocomplete.vue",
     "lint": "vue-cli-service lint",
-    "prepublishOnly": "$npm_execpath build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
