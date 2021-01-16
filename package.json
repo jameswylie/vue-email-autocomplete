@@ -9,7 +9,9 @@
   },
   "main": "dist/vue-email-autocomplete.umd.min.js",
   "files": [
-    "dist/vue-email-autocomplete.umd.min.js"
+    "dist/*",
+    "src/*",
+    "*.json"
   ],
   "_id": "vue-email-autocomplete@1.0.0",
   "repository": {
