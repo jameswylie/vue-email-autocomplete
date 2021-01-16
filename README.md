@@ -277,6 +277,6 @@ If you'd like to contribute and add functionality to this project, feel free to 
 
 Donations are welcome and very much appreciated!
 
-ETH: 0xb53dF77A7B18948f8f8FafF5DeF7bCc4E7Dbb30A
-BTC (Native Segwit): bc1qval55py30qt0jtrvuaa3zdfsft2weurnkn0kcj
+ETH: 0xb53dF77A7B18948f8f8FafF5DeF7bCc4E7Dbb30A\
+BTC (Native Segwit): bc1qval55py30qt0jtrvuaa3zdfsft2weurnkn0kcj\
 BTC (Segwit): 3BiTzQLcqwyCiMa8ydCu6dpdZzo8XgSzvU
