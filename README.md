@@ -195,8 +195,8 @@ export default {
 
         container: {
           position: fixed,
-          top: 40px,
-          left: 40px
+          top: '40px',
+          left: '40px'
         },
 
         /* Edit style for the suggestions overlay */
