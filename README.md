@@ -31,9 +31,10 @@ npm install vue-email-autocomplete --save
 
 <script>
 
-/* Import Package */
+/* Import Package and Styles */
 
 import EmailAutoComplete from "vue-email-autocomplete";
+import "vue-email-autocomplete/dist/vue-email-autocomplete.css";
 
 export default {
 
@@ -70,9 +71,10 @@ export default {
 
 <script>
 
-/* Import Package */
+/* Import Package and Styles */
 
 import EmailAutoComplete from "vue-email-autocomplete";
+import "vue-email-autocomplete/dist/vue-email-autocomplete.css";
 
 export default {
 
@@ -117,9 +119,10 @@ export default {
 
 <script>
 
-/* Import Package */
+/* Import Package and Styles */
 
 import EmailAutoComplete from "vue-email-autocomplete";
+import "vue-email-autocomplete/dist/vue-email-autocomplete.css";
 
 export default {
 
@@ -168,9 +171,10 @@ export default {
 
 <script>
 
-/* Import Package */
+/* Import Package and Styles */
 
 import EmailAutoComplete from "vue-email-autocomplete";
+import "vue-email-autocomplete/dist/vue-email-autocomplete.css";
 
 export default {
 
