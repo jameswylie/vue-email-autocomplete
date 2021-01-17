@@ -15,6 +15,9 @@
 
 export default {
   name: 'vue-email-autocomplete',
+
+  /* Props */
+
   props: {
 
     css: {
@@ -42,6 +45,8 @@ export default {
 
   },
 
+  /* Data */
+
   data() {
     return {
       inputVal: '',
@@ -53,6 +58,9 @@ export default {
       selectedMatch: null
     }
   },
+
+  /* Computed */
+
   computed: {
     vendors() {
 
@@ -77,6 +85,9 @@ export default {
 
     }
   },
+
+  /* Methods */
+
   methods: {
 
     check(e) {
@@ -130,7 +141,7 @@ export default {
         break;
 
         case 27:
-        //enter
+        //escape
         e.preventDefault();
         e.stopPropagation();
         this.closeOverlay();
@@ -279,6 +290,8 @@ export default {
     }
 
   },
+
+  /* Lifecycle Hooks */
 
   mounted() {
 
