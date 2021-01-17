@@ -284,7 +284,7 @@ Coming Soon!
 
 If you'd like to contribute and add functionality to this project, feel free to fork this repo, create a new feature branch and then submit a pull request.
 
-# Buy me a <del>Beer</del> Cider
+# :beer: Buy me a <del>Beer</del> Cider
 
 Donations are welcome and very much appreciated!
 
