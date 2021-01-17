@@ -25,8 +25,8 @@ npm install vue-email-autocomplete --save
 ```vue
 <template>
 
-  <EmailAutoComplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val'>
-    <input v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+  <email-autocomplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val'>
+    <input type='text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
   </EmailAutoComplete>
 
 </template>
@@ -66,7 +66,7 @@ export default {
   /* A "domains" prop is added to the component and references the array of domains within the data property below */
 
   <EmailAutoComplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val' :domains='customDomains'>
-    <input v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
   </EmailAutoComplete>
 
 </template>
@@ -114,7 +114,7 @@ export default {
   /* An "onSubmit" prop is added to the component and references a method below */
 
   <EmailAutoComplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val' :onSubmit='() => validateForm()'>
-    <input v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
   </EmailAutoComplete>
 
 </template>
@@ -166,7 +166,7 @@ export default {
   /* A "css" prop is added to the component and references a computed property below */
 
   <EmailAutoComplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val' :css='styleOverrides'>
-    <input v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
   </EmailAutoComplete>
 
 </template>
