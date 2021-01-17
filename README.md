@@ -286,10 +286,6 @@ Coming Soon!
 - Autocomplete default suggestions list to be based on browser language detection, which will make the suggestions more regionally relevant.
 - Vue 3 refactoring/versioning.
 
-# Contributions
-
-If you'd like to contribute and add functionality to this project, feel free to fork this repo, create a new feature branch and then submit a pull request.
-
 # :beer: Buy me a <del>Beer</del> Cider
 
 Donations are welcome and very much appreciated!
@@ -297,3 +293,8 @@ Donations are welcome and very much appreciated!
 **ETH:** 0xb53dF77A7B18948f8f8FafF5DeF7bCc4E7Dbb30A\
 **BTC (Native Segwit):** bc1qval55py30qt0jtrvuaa3zdfsft2weurnkn0kcj\
 **BTC (Segwit):** 3BiTzQLcqwyCiMa8ydCu6dpdZzo8XgSzvU
+
+
+# Contributions
+
+If you'd like to contribute and add functionality to this project, feel free to fork this repo, create a new feature branch and then submit a pull request.
