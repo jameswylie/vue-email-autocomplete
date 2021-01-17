@@ -279,6 +279,12 @@ Coming Soon!
     </tbody>
 </table>
 
+# :racing_car: Roadmap
+
+- Add extra CSS override mappings.
+- Add ability to override CSS with a stylesheet (enables usage with media queries).
+- Autocomplete default suggestions list to be based on browser language detection, which will make the suggestions more regionally relevant.
+- Vue 3 refactoring/versioning.
 
 # Contributions
 
