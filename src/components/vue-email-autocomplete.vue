@@ -84,7 +84,7 @@ export default {
       if(this.isActionKey(e.keyCode)) {
 
         this.invokeAction(e, e.keyCode);
-        return true;
+        return;
 
       }
 
@@ -144,17 +144,17 @@ export default {
     navigateSuggestions(direction) {
 
       if(this.matches.length < 1) {
-        return false;
+        return;
       }
 
       if(direction === 'down'){
 
         if(this.selectedMatch === null) {
           this.selectedMatch = 0;
-          return true;
+          return;
         }else if(this.selectedMatch !== null && (this.selectedMatch+1) < this.matches.length) {
           this.selectedMatch++;
-          return true;
+          return;
         }
 
       }
@@ -163,7 +163,7 @@ export default {
 
         if(this.selectedMatch !== null && this.selectedMatch > 0) {
           this.selectedMatch--;
-          return true;
+          return;
         }
 
       }
