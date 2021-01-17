@@ -1,7 +1,7 @@
 # vue-email-autocomplete
 A configurable &amp; lightweight Vue wrapper component that enables "out of the box" email autocomplete/suggestions on input elements.
 
-![Autocomplete in Action](https://raw.githubusercontent.com/jameswylie/vue-email-autocomplete/docs/images/vue-email-autocomplete.gif)
+![Autocomplete in Action](https://github.com/jameswylie/vue-email-autocomplete/blob/main/docs/images/vue-email-autocomplete.gif?raw=true)
 
 ✅ A wrapper component so you can use alongside other form enabled libraries (such as Buefy).\
 ✅ Customizable.\
