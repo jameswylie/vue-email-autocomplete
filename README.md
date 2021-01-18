@@ -214,8 +214,25 @@ export default {
 
         overlay: {
           backgroundColor: #FFF
-        }
+        },
 
+        /* Edit style for the suggestions text */
+
+        text: {
+
+          /* Edit style for the main text */
+
+          suggestion: {
+            color: purple
+          },
+
+          /* Edit style for the highlighted/matched text */
+
+          highlight: {
+            color: blue
+          }
+
+        }
 
       }
 
