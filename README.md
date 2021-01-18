@@ -26,7 +26,7 @@ npm install vue-email-autocomplete --save
 <template>
 
   <email-autocomplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val'>
-    <input type='text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
   </email-auto-complete>
 
 </template>
