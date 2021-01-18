@@ -1,10 +1,10 @@
 <template>
     <div>
       <slot></slot>
-      <div class="auto-complete-container" :style='css && typeof css.container !== null ? css.container : null'>
-      <div class="auto-complete-overlay" v-if='overlayVisible && matches.length > 0' :style='css && typeof css.overlay !== null ? css.overlay : null'>
+      <div class="auto-complete-container" :style='mapCSS("container")'>
+      <div class="auto-complete-overlay" v-if='overlayVisible && matches.length > 0' :style='mapCSS("overlay")'>
         <ul>
-          <li v-for='(match, index) in matches' :key='index' @click='completeInput(inputVal+match.completion)' :class='index === selectedMatch ? "selected" : ""'><span v-html='inputVal'></span><span class="completion" v-html='match.completion'></span></li>
+          <li v-for='(match, index) in matches' :key='index' @click='completeInput(inputVal+match.completion)' :class='index === selectedMatch ? "selected" : ""' :style='mapCSS("text.suggestion")'><span v-html='inputVal'></span><span class="completion" v-html='match.completion' :style='mapCSS("text.highlight")'></span></li>
         </ul>
       </div>
     </div>
@@ -62,6 +62,7 @@ export default {
   /* Computed */
 
   computed: {
+
     vendors() {
 
       if(this.domains && this.domains.length > 0) {
@@ -286,6 +287,18 @@ export default {
       if(e.target instanceof HTMLElement && !this.$el.contains(e.target)) {
         this.overlayVisible = false;
       }
+
+    },
+
+    mapCSS(key) {
+
+      if(!this.css){
+        return null;
+      }
+
+      return key.split(".").reduce(function(o, x) {
+        return (typeof o == "undefined" || o === null) ? o : o[x];
+      }, this.css);
 
     }
 
