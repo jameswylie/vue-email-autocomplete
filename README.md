@@ -220,13 +220,13 @@ export default {
 
         text: {
 
-          /* Edit style for the main text */
+          /* Main text */
 
           suggestion: {
             color: purple
           },
 
-          /* Edit style for the highlighted/matched text */
+          /* Highlighted/matched text */
 
           highlight: {
             color: blue
