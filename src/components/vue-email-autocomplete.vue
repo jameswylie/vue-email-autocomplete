@@ -4,7 +4,7 @@
       <div class="auto-complete-container" :style='mapCSS("container")'>
       <div class="auto-complete-overlay" v-if='overlayVisible && matches.length > 0' :style='mapCSS("overlay")'>
         <ul>
-          <li v-for='(match, index) in matches' :key='index' @click='completeInput(inputVal+match.completion)' :class='index === selectedMatch ? "selected" : ""' :style='mapCSS("text.suggestion")'><span v-html='inputVal'></span><span class="completion" v-html='match.completion' :style='mapCSS("text.highlight")'></span></li>
+          <li v-for='(match, index) in matches' :key='`${match}-${index}`' @click='completeInput(inputVal+match.completion)' :class='index === selectedMatch ? "selected" : ""' :style='mapCSS("text.suggestion")'><span v-html='inputVal'></span><span class="completion" v-html='match.completion' :style='mapCSS("text.highlight")'></span></li>
         </ul>
       </div>
     </div>
