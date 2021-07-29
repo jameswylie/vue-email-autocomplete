@@ -91,23 +91,21 @@ export default {
 
   methods: {
 
-    check(e) {
+    checkKey(e) {
+        if (this.isActionKey(e.keyCode)) {
+            this.invokeAction(e, e.keyCode);
+            return;
+        }
+    },
 
-      if(this.isActionKey(e.keyCode)) {
+    checkInput(e) {
+        const ele = e.target;
+        this.inputEle = e.target;
+        this.inputVal = ele.value;
 
-        this.invokeAction(e, e.keyCode);
-        return;
+        this.resetMatches();
 
-      }
-
-      const ele = e.target;
-      this.inputEle = e.target;
-      this.inputVal = ele.value;
-
-      this.resetMatches();
-
-      this.filterVendors(ele.value);
-
+        this.filterVendors(ele.value);
     },
 
     isActionKey(keyCode) {
@@ -274,7 +272,7 @@ export default {
 
       const parts = input.split('@');
 
-      if(input.includes('@') && parts[1].length > 0){
+      if(input.includes('@') && parts[1].length >= 0){
 
         this.computeMatches(parts[1]);
 
