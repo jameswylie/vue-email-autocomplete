@@ -25,8 +25,8 @@ npm install vue-email-autocomplete --save
 ```vue
 <template>
 
-  <email-autocomplete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val'>
-    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+  <email-auto-complete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val'>
+    <input type="text" v-model='emailAddress' @input='$refs.EmailAutoComplete.checkInput($event)' @keydown='$refs.EmailAutoComplete.checkKey($event)' />
   </email-auto-complete>
 
 </template>
@@ -66,7 +66,7 @@ export default {
   /* A "domains" prop is added to the component and references the array of domains within the data property below */
 
   <email-auto-complete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val' :domains='customDomains'>
-    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @input='$refs.EmailAutoComplete.checkInput($event)' @keydown='$refs.EmailAutoComplete.checkKey($event)' />
   </email-auto-complete>
 
 </template>
@@ -114,7 +114,7 @@ export default {
   /* An "onSubmit" prop is added to the component and references a method below */
 
   <email-auto-complete ref="EmailAutoComplete" :onCompletion='(val) => emailAddress = val' :onSubmit='() => validateForm()'>
-    <input type="text" v-model='emailAddress' @keydown.native='$refs.EmailAutoComplete.check($event)' />
+    <input type="text" v-model='emailAddress' @input='$refs.EmailAutoComplete.checkInput($event)' @keydown='$refs.EmailAutoComplete.checkKey($event)' />
   </email-auto-complete>
 
 </template>
